@@ -1,6 +1,7 @@
 import json
 from urllib.request import urlopen
 
+#Read from local files and manipulate the data
 with open('data.json') as f:
 	data = json.load(f)
 
@@ -10,7 +11,7 @@ for state in data['states']:
 with open('new_states.json', 'w') as f:
 	json.dump(data, f, indent=2)
 
-#grab a api and use it to seperate data
+#grab an api and use it to seperate data
 
 with urlopen("https://cat-fact.herokuapp.com/facts") as response:
 	source = response.read()
