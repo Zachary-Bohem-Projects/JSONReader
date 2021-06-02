@@ -1,7 +1,6 @@
 # JSONReader
-## [App.py][1] will read from [data.json][2] remove the abbreviations then dump it into a new file called [new_states.json][3]
-## Results of this can be viewed in the files
-## _Here is the output of app.py_
+## [App.py][1] will read from [data.json][2] remove the abbreviations then dump it into a new file called [new_states.json][3] Results of this can be viewed in the files.
+## _Here is the output of app.py that interfaces with a [random cat facts api][4]_
 
 ```
 ----------------------------------- 
@@ -111,3 +110,4 @@ Owning a cat can reduce the risk of stroke and heart attack by a third.
 [1]: app.py
 [2]: data.json
 [3]: new_states.json
+[4]: https://cat-fact.herokuapp.com/facts
